@@ -10,7 +10,7 @@ jobs:
   echo-bye:
     runs-on: ubuntu-latest
     steps:
-      -name: Failed Step
+      -   name: Failed Step
        run:|
         echo "I will fail"
         exit 1
